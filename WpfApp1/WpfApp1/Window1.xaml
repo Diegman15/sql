@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
+        
         Title="Window1" Height="450" Width="800">
     <Grid>
         <ListView x:Name="lvContactos" HorizontalAlignment="Left" Height="279" Margin="10,10,0,0" VerticalAlignment="Top" Width="772">
@@ -14,6 +15,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Height="46" Margin="72,333,0,0" VerticalAlignment="Top" Width="163" Click="Agregar_Click"/>
+        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Height="46" Margin="491,333,0,0" VerticalAlignment="Top" Width="216" Click="Button_Click"/>
 
     </Grid>
 </Window>

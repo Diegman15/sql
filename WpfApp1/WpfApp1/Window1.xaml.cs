@@ -41,5 +41,16 @@ namespace WpfApp1
                 lvContactos.ItemsSource = contactos;
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Agregar_Click(object sender, RoutedEventArgs e)
+        {
+            WpfApp1.MainWindow form = new WpfApp1.MainWindow();
+            form.ShowDialog();
+        }
     }
 }
